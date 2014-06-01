@@ -1,5 +1,7 @@
 \documentclass[11pt,a4paper,oneside]{article}
 \usepackage{./latexstyles/print}
+\selectlanguage{ngerman}
+\addbibresource{../held-library/held_library}
 
 \title{
 	Kooperative Schreiben mit GitHub ---
@@ -17,8 +19,6 @@
 }
 
 \begin{document}
-
-\selectlanguage{ngerman}
 
 \maketitle
 
@@ -56,8 +56,6 @@ Vorteile der Benutzung dieser Software ist die lückenlose digitale Dokumentatio
 
 Nur so kann der Kurs selbst seinem inhaltlichen Postulat nach demokratisch legitimen Zusammenwirken innerhalb der Gemeinschaft des Kurses gerecht werden.
 
-%bibliography
-	%\bibliographystyle{apsr}
-	%\bibliography{held_library}
-		%note, these are *not* submodules, but they point to the clones on the local harddrive, so they must be cloned, too -- maybe they should be implemented as submodules in future.
+\printbibliography
+
 \end{document}
