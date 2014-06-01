@@ -7,6 +7,7 @@ Da wir aus verschiedenen Disziplinen (Erziehungswissenschaft/Grundschulpädagogi
 Lassen Sie uns wissen, wo wir ihrer Einschätzung nach gegebenfalls besser reinpassen!
 
 Wir Sie unserem Entwurf entnehmen, möchten wir gern im September von unserem dann absolvierten Seminar bei der Deutschen SchülerAkademie berichten und können vorerst nur unsere fachdidaktische Planung vorweisen.
+Eine vollständige Kursbeschreibung finden Sie [hier](http://www.maxheld.de/emile/).
 Empirische Daten dann nach dem Sommer!
 
 Wir würden uns freuen mit dabei zu sein,
