@@ -15,6 +15,6 @@ Mit besten Grüßen,
 
 [Verena Kasztantowicz](https://www.erziehungswissenschaften.hu-berlin.de/grundschulpaed/mitarbeiterinnen/lb-deutsch/v.-kasztantowicz)
 
-[Maximilian Held](https://www.bigsss-bremen.de/index.php?id=mheld)
+[Maximilian Held](http://www.maxheld.de)
 
 P.S.: Leider haben wir erst kürzlich (am 26.05.2014) durch das Rektorat der Uni Bremen von dem Beitragsaufruf gehört; unser Schreiben ist daher --- und aufgrund der erst folgenden Erprobung --- als vorläufig zu betrachten.
