@@ -3,8 +3,7 @@ Sehr geehrter Herr Dr. Spörl,
 
 anbei finden Sie unseren Beitragsentwurf zur TITTF-Konferenz an der Universität Bremen: "Von Open Source lernen, heißt Schreiben lernen --- Ein wissenschaftsdidaktisches Experiment des gemeinsamen Schreibens auf GitHub mit OberstufenschülerInnen" .
 
-Da wir aus verschiedenen Disziplinen (Erziehungswissenschaft/Grundschulpädagogik und Soziologie) kommen, aber gemeinsam unterrichten, sind wir uns etwas unsicher in welchen ihrer beiden Fächergruppenworkshops wir am besten passen und wenden uns daher an Sie beide.
-Lassen Sie uns wissen, wo wir, Ihrer Einschätzung nach, gegebenenfalls besser reinpassen!
+Da wir aus verschiedenen Disziplinen (Erziehungswissenschaft/Grundschulpädagogik und Soziologie) kommen, aber gemeinsam unterrichten, sind wir etwas unsicher, welcher Ihrer Fächergruppenworkshops wir eher entsprechen und wenden uns daher an Sie beide.
 
 Wie Sie unserem Entwurf entnehmen, möchten wir gern im September von unserem dann absolvierten Seminar bei der Deutschen SchülerAkademie berichten und können vorerst nur unsere fachdidaktische Planung vorweisen.
 Eine vollständige Kursbeschreibung finden Sie [hier](http://www.maxheld.de/emile/).
