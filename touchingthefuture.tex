@@ -8,6 +8,7 @@
 	Kooperative Schreiben mit GitHub ---
 	Ein wissenschaftsdidaktisches Experiment mit TeilnehmerInnen des Kurses ``Schule und Demokratie'' der Deutschen SchülerAkademie
 }
+%MH: vielleicht doch Variante des albernen/sexieren Titels "treffen sich ..... auf github nehmen"? Oder bewahren wir uns das für später auf?
 
 \date{May 31, 2014}
 
@@ -22,6 +23,107 @@
 \begin{document}
 
 \maketitle
+
+%\abstract{
+
+%}
+
+%zu berücksichtende stichwörter aus der Ausschreibung (buzzwords)
+	%forschendes lernen,
+	%peer-learning,
+	%interdisziplinäre lehre
+
+Akademische Lehre der Geistes- und Sozialwissenschaften verfolgt
+\begin{inparaenum}
+	\item methodisch-formale,
+	\item inhaltlich-fachbezogene sowie
+	\item praktisch-erwerbsrelevante
+\end{inparaenum}
+Lernziele.
+	%MH: gibt's dafür vielleicht ne Quelle? Macht das Sinn?
+In allen drei Bereichen sieht sich die Didaktik der Geistes- und Sozialwissenschaften alten Problemen und neuen Herausforderungen gegenüber.
+
+\begin{description}
+	\item[Methodisch-formale Ziele.]
+		Studierende der Geistes- und Sozialwissenschaften benötigen umfangreiche Medien- und Methodenkompetenzen: Um selbstständig wissenschaftlich zu arbeiten, müssen sie etwa Literaturrecherchen unternehmen, Fachtexte kritisch lesen und eigene Arbeiten zu Papier bringen.
+		Besonders wissenschaftliches Lesen und Schreiben stellt Studierende (vielleicht zunehmend) vor Probleme.
+		%MH: finden wir hierfür noch eine Literatur?
+		Studierende sind oft von wissenschaftlicher Literatur überfordert, und abgegebene Texte genügen oft nicht den Erwartungen.
+		Herkömmliche universitäre Lehre, ob als Seminar oder Vorlesung, bietet hier traditionell nur eingeschränkte Möglichkeiten zum intensiven Lernen: fehlendes Textverständnis kann nur im Nachhinein durch Lehrende ergänzt werden, und Hausarbeiten werden oft nur einmalig und flüchtig korrigiert.
+		Sowohl kritische Lesegewohnheiten als auch präziser Schriftausdruck benötigen aber \emph{deliberate practice} \cite{Ericsson2007}, also vielfache Wiederholung begleitet von sorgfältigen Rückmeldungen.
+		Um gut Lesen und Schreiben zu lernen, brauchen Studierende zahlreiche, kleinteilige Aufgaben, die auf Resonanz stoßen.
+		%MH: hier tatsächlich irgendwo Hartmut Rosa oder dingens der Vörgänger, wie heisst er ... re: resonanz einbinden? Können wir über Resonanz noch etwas sagen?
+	\item[Inhaltlich-fachbezogene Ziele.]
+		Selbstverständlich geht es im Studium auch um das Studien\emph{fach}, hier etwa um Abstraktionen und Konzepte der Geistes- und Sozialwissenschaften, wie zum Beispiel die \emph{Reformpädagogik} \cite{Freinet1979}
+			%MH korrektes Zitat und Beschreibung?
+		oder \emph{kommunikative Rationalität} \cite{Habermas1988a}.
+			%MH die citebefehle in klammern haben sich geändert in biblatex, das muss ich noch ändern.
+		Auch hier steht die Fachdidaktik vor Problemen.
+		So fällt es oft schwer, bei Studierenden Interesse für abstrakte Literaturen zu wecken --- jedenfalls ohne die betreffenden Inhalte zu trivialisieren.
+		Konzepte wie etwa \emph{Reformpädagogik} oder \emph{kommunikative Rationalität} bieten keinen unmittelbaren Sinneseindruck oder präzisen Formalismus (wie etwa viele naturwissenschaftliche Gegenstände), und entbehren so für Studierende leicht eines Zusammenhanges zu ihrer Lebenswelt.
+		Dieses didaktische Scheitern produziert nicht nur motivationale Probleme, sondern verletzt auch den emanzipatorischen Ethos einer humanistischen Bildung im allgemeinen %MH Zitat irgendwas?
+		oder öffentlichen Sozialwissenschaft im besonderen \cite{gans1989public-sociology}.
+		Schließlich schlägt sich mangelndes Verständnis auch in fehlschlagenden Transferleistungen und schnellem Vergessen der Lerninhalte wieder, wie etwa \cite{Frank2007a} anektodisch über Einführungen in die Volkswirtschaftslehre berichtet.
+		Damit Studierende nicht nur definitorisches Wissen reproduzieren (sogenanntes ``bulimisches Lernen''), braucht es gute Anwendungsfälle um die bearbeiteten Konzepte erfahrbar zu machen.
+	\item[Erwerbsrelevante Fertigkeiten.]
+		Schließlich gilt es für Studierende der Sozial- und Geisteswissenschaften über ihr Fachstudium hinaus generelle erwerbsrelevante Fertigkeiten zu erwerben, wie etwa gutes Arbeiten in Gruppen oder Umgang mit professioneller Software.
+		Auch in diesem Bereich gibt es aus eigener Erfahrung in unseren Fachgebieten einiges nachzuholen.
+		Nominelle Gruppenarbeiten werden oft von wenigen, oder einzelnen Gruppenmitgliedern erledigt, unter anderem wegen mangelnder Transparenz über geleistete Beiträge, Unklarheiten über den Modus der Zusammenarbeit oder technischen Hindernissen im Datenaustausch.
+		Mit Ausnahme von Spezialsoftware der empirischen Sozialforschung und Statistik glänzen Studierende der Sozial- und Geisteswissenschaften oft auch nicht mit umfangreichen Softwarekenntnissen.
+		Hier braucht es einen Anschub aus anderen Disziplinen.
+\end{description}
+
+Die Konventionen und Werkzeuge der \emph{Open Source} Softwareentwicklung bieten ein attraktives Modell der Zusammenarbeit, um diesen alten Probleme und neuen Herausforderungen der sozial- und geisteswissenschaftlichen Hochschullehre neu zu begegnen.
+%MH Open source und git eventuell anders setzen, monospace oder so.
+Wir konzentrieren uns hier auf die gegenwärtig dominierende  (Open Source) Software \emph{git}, einem Werkzeug \emph{dezentralen} Versions- und Quellcodeverwaltung und auf die ebenfalls beliebte, darauf basierende (kommerziell-proprieträre) Plattform \emph{GitHub}, einem sozialen Netzwerk für Programmierer.
+
+Die Zusammenarbeit mit \emph{git} und auf \emph{GitHub} zeichnet sich aus durch:
+\begin{enumerate}
+	\item Offenheit & Erlaubnisfreiheit:
+		%MH engl: permissiveness, laut dict erlaubtheit, sexuelle Freizügigkeit, toleranz
+		\emph{Jeder} kann eigene Varianten (sogenannte \emph{Forks}, engl. Gabeln) von Projekten anlegen und nach eigenen Vorstellungen fortentwickeln.
+		\emph{Jeder} kann den Fortgang von anderen Projekten und allen Forks nachvollziehen.
+		\emph{Jeder} kann Probleme (\emph{Issues}) berichten, oder eigene Verbesserungsvorschläge unterbreiten (\emph{Pull Requests}).
+	\item Effizienz & Robustheit:
+		Forks von verschiedenen Autoren, oder Versionen zu unterschiedlichen Zeitpunkte können elegant Zeilen- und Buchstabengenau verglichen (\emph{Diff}) und gegebenfalls teil-automatisiert vereint werden (\emph{Merge}).
+		Bei korrektem Gebrauch können Daten kaum verloren gehen; alle Versionen bleiben erhalten.
+		Die zu verwendende Software stellt geringste Anforderungen an Hardware oder Netzanbindung.
+	\item Wertschätzung & Zurechenbarkeit:
+		Rückmeldungen sind technisch elegant zu realisieren (auf Zeilenbasis), und werden durch Konventionen gestärkt (\emph{Code Review}).
+		Verbesserungsvorschläge für andere Projekte sind einfach zu unterbreiten, und werden als bereichernd geschätzt (\emph{Pull Requests}, s.o.).
+		Urheberschaft lässt sich Zeilengenau nachvollziehen (\emph{Blame}).
+\end{enumerate}
+
+Diese Konventionen und Werkzeuge ermöglichen auch für Sozial- und Geisteswissenschaftliches Lernen eine intensive Zusammenarbeit, wie sie herkömmlich (etwa mit binären Dateiformaten wie MS Office oder zentralen Speichern wie Dropbox) nicht möglich ist.
+
+Wir erproben diese Technologie im Sommer 2014 in einem Kurs über deliberative Demokratie und inklusive Pädagogik bei der Deutschen SchülerAkademie (Bildung & Begabung gGmbH).
+Teilnehmende (15-18 Jahre alt) werden auf GitHub gemeinsam einen etwa 30-seitigen Text (sogenannte ``Dokumentation'') über den Kursinhalt verfassen.
+
+Wir erhoffen uns von dieser (anders nicht möglichen) intensivierten Zusammenarbeit Lernerträge im Sinne aller drei oben genannten Ziele:
+%mh folgt noch.
+
+%MH hier Diagramm einfügen über die Übereinstimmung der drei Ziele? Sozusagen Venn-Diagramm mit GitHub im Schnittpunkt?
+
+
+	% Inhaltlich-fachbezogene Ziele:
+	% Fachliche Kompetenz
+	% Einführung in ausgewählte sozialwissenschaftliche Theorien und deren Anwendung auf die jüngere Geschichte und das politische System der BRD. GPC verbindet eine politikwissenschaftlich-orientierte Landeskunde der BRD (etwa: Shoah, politische Ordnung, Wohlfahrtsstaat) und ausgewählte, prominente sozialwissenschaftliche Theorien (etwa: Konstruktivismus, Modernisierungstheorie, Spieltheorie) zu einer von den Studierenden zu erbringenden Syntheseleistung im Sinne des forschenden Lernens.
+	% Die meisten der Studierenden sind das erste Mal in Deutschland und wissen oft wenig über Geschichte und Institutionen etablierter Demokratien. GPC bietet hier eine kleine Landeskunde über die neue (Studien-)heimat der Studierenden und eine politische Bildung für die Gast- und manchmal zukünftigen Staatsbürger.
+	% Das Seminar diskutiert zunächst die zivilisatorische Katastrophe der Shoah (etwa: Arendt, Bauer, Browning, Goldhagen), beschreibt dann die institutionellen Innovationen der BRD (etwa: Schmidt, Newton/van Deth, Grundgesetz) und notiert schließlich Wandel und Krise des deutschen Wohlfahrtsstaates und der europäischen Integration.
+	% Die Begegnung mit sozialwissenschaftlichen Denkweisen ist den StudienanfängerInnen meist ebenfalls neu. GPC ergänzt daher die Landeskunde durch ausgewählte, einschlägige Literatur, um mit den Studierenden über die Irr- und Sonderwege deutscher Geschichte zu abstrahieren und herauszuarbeiten, welche Aspekte sich auf (post-)industrielle Gesellschaft verallgemeinern lassen und welche davon spezifisch deutsche Erfahrungen sein könnten.
+
+	% Die Studierenden sind durch ihre bisherigen Bildungswege häufig an frontale und geschlossene Unterrichtsformen gewöhnt, weshalb selbständige, quellengeleitete Erörterungen eine große Herausforderung für sie darstellen. Daher begleitet GPC die Studierenden dabei, selbständige Syntheseleistungen zu offenen Fragen in 2-3 Essays zu verschriftlichen (etwa: “Ist der Tod ein Meister aus Deutschland?”).
+	% Die Studierenden sind aufgerufen, ihre kritische Antwort sowohl in der theoretischen Literatur als auch anhand der deutschen historischen Evidenz zu verorten und einer theorie- und datengeleiteten Forschung zu folgen. Der eingebettete Kurs APS bietet den Studierenden das methodische Rüstzeug zum akademischen, quellengeleiteten Schreiben.
+
+	% Darüber hinaus fordert das Kurswiki (https://sites.google.com/site/gpcfy2012/) Studierende zu Interaktion und kooperativem Lernen auf. Kleine Aufgaben (etwa: zentrale Begriffe definieren, Sitzungen zusammenfassen, Illustrationen erarbeiten, Lesefragen beantworten) zerteilen die Inhalte auf “Häppchengrößen”.
+	% Besonders die zu allen theoretischen Texten bereitgestellten und online diskutierten Lesefragen helfen den Studierenden beim Erschließen von komplexen Texten.
+	% Darüber hinaus bietet das Wiki ein flexibles Forum, um auf unterschiedliche Persönlichkeiten und Lernstile der Studierenden einzugehen und es ergänzt das Seminargeschehen motivationsfördernd durch Videos, Darstellungen und schriftliche Zusammenfassungen.
+	% Das Wiki ermöglicht den oft ausländischen Studierenden, denen die mündliche Mitarbeit in englischer Sprache zum Teil schwer fällt, auf andere Weise aktiv, das heißt online, zum Seminar beizutragen. Letztlich trainiert das Kurswiki die Studierenden im Umgang mit zeitgemäßer Arbeitstechniken für IKT-basierte Zusammenarbeit.
+	% Im Wiki finden sich zudem weiterführende Verweise zu Podcasts, Internetseiten, Videos und anderen Materialien.
+	% Auch im Seminar werden unterschiedliche Lernstile und Wahrnehmungskanäle bedient: Zum Unterrichtsgespräch werden umfangreiche Visualisierungen und Notizen auf selbsthaftenden Folien erstellt, die nach dem Seminar an die Wand geheftet werden und das ganze Semester dort verbleiben.
+	% Die Seminarinhalte werden auf diese Weise nach und nach von den Studierenden und mir im Raum entworfen, so dass jedes Thema, Konzept und Theorie einen definitiven physischen Ort im Seminar hat (etwa: links über der Tür). Dies erleichtert spätere Rückgriffe und Verbindungen und unterstützt die Verstetigung des Seminars.
+
+
 
 Im Rahmen der Deutschen SchülerAkademie wird im Sommer 2014 ein interdisziplinärer Kurs zum Thema ``Schule und Demokratie'' unter unserer Leitung stattfinden.
 Zielgruppe sind SchülerInnen im Altern von 16 bis 18 Jahren, die den 3-wöchigen Kurs im Rahmen des Begabtenförderungsprogramms gewählt haben.
@@ -57,6 +159,7 @@ Vorteile der Benutzung dieser Software ist die lückenlose digitale Dokumentatio
     % weitere Vorteile
 
 Nur so kann der Kurs selbst seinem inhaltlichen Postulat nach demokratisch legitimen Zusammenwirken innerhalb der Gemeinschaft des Kurses gerecht werden.
+
 
 \printbibliography
 
