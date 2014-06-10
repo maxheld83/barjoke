@@ -1,2 +1,5 @@
-
+Output/
 touchingthefuture.pdf
+*.gz
+
+.DS_Store
