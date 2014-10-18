@@ -19,7 +19,7 @@
 	Ein wissenschaftsdidaktisches Experiment zum gemeinsamen Schreiben auf GitHub
 }
 
-\date{31. Mai 2014}
+\date{today}
 
 \author{
 	\href{http://www.maxheld.de}{Maximilian Held}, PhD Fellow\\
@@ -38,11 +38,10 @@
 \maketitle
 
 \begin{abstract}
-	Wir berichten über einen bei der Deutschen SchülerAkademie (Bildung \& Begabung GmbH) geplanten Kurs zum Thema ``Schule und Demokratie'', bei dem Teilnehmende im Alter von 16--18 Jahren auf der Entwicklerplattform \emph{GitHub} zusammen schreiben und lernen.
+	Wir berichten über einen bei der Deutschen SchülerAkademie (Bildung \& Begabung GmbH) durchgeführten Kurs zum Thema ``Schule und Demokratie'', bei dem Teilnehmende im Alter von 16--18 Jahren auf der Entwicklerplattform \emph{GitHub} zusammen schreiben und lernen.
 
-	Konventionen und Werkzeuge aus der Open Source Softwareentwicklung ermöglichen es auch Studierenden der Geistes- und Sozialwissenschaften, intensiv an gemeinsamen Texten zu arbeiten.
-	Durch viele Revisionen, wechselseitige Rückmeldungen von Peers und Lehrenden sowie einfacher Einarbeitung stärken Studierende ihren schriftlichen Ausdruck im Sinne einer \emph{Deliberate Practice}.
-	Gleichzeitig dient die selbstorganisierte Zusammenarbeit Studierenden als Reflexionsmoment, um (ausgewählte) pädagogische und soziologische Konzepte erfahrbar zu machen.
+	Konventionen und Werkzeuge aus der Open Source Softwareentwicklung ermöglichen es auch Studierenden der Geistes- und Sozialwissenschaften, kooperativ und in weiten Teilen selbstorganisiert an \emph{einem gemeinsamen Text} zu arbeiten.
+	Durch viele Revisionen, wechselseitige Rückmeldungen von Peers und Lehrenden stärken Studierende ihren schriftlichen Ausdruck im Sinne einer \emph{Deliberate Practice}.
 
 	Schließlich erlernen Studierende ein gängiges Softwareprogramm und reflektieren über den Einsatz digitaler Technologie für akademische Zusammenarbeit.
 \end{abstract}
@@ -54,6 +53,7 @@ Erst wenn ein sozial- oder geisteswissenschafliches Konzept in einem \emph{eigen
 
 Herkömmliche universitäre Lehre, ob als Seminar oder als Vorlesung, bietet hier traditionell nur eingeschränkte Möglichkeiten zum gezielten Kompetenzerwerb: Fehlendes Textverständnis kann nur im Nachhinein durch Lehrende ergänzt werden und Hausarbeiten werden oft nur einmalig und flüchtig korrigiert.
 Dringend benötigtes individuelles Feedback entfällt meist ganz, eine \emph{Deliberate Practice} \parencite{Ericsson2007} kann sich so kaum entfalten.
+%VK: Kannst du bitte Deliberate Practice kurz definieren?
 
 Ebenso leidet herkömmliche universitäre Lehre des akademischen Schreibens unter mangelnder Leserschaft, da die meisten Hausarbeiten im Orkus des universitären Vergessens verschwinden.
 \footnote{
@@ -62,14 +62,14 @@ Ebenso leidet herkömmliche universitäre Lehre des akademischen Schreibens unte
 %VK: Sarkasmus, baby.
 Studierende benötigen am Beginn des akademischen Schreibens aber gerade Anerkennungs- und Resonanzerfahrungen, auch um Entfremdung und Steigerungszwängen moderner Gesell\-schaften (etwa Burnout) präventiv entgegenzuwirken \parencite{Rosa-Paech-etal-2014}.
 
-Schließlich gilt für Studierende der Sozial- und Geisteswissenschaften über ihr Fachstudium hinaus, generelle erwerbsrelevante Fertigkeiten zu erwerben, wie etwa produktive Arbeiten in Gruppen oder der Umgang mit professioneller Software.
+Schließlich gilt für Studierende der Sozial- und Geisteswissenschaften über ihr Fachstudium hinaus, generelle erwerbsrelevante und soziale Kompetenzen zu erwerben, wie etwa produktive Arbeiten in Gruppen oder der Umgang mit professioneller Software.
 Nominelle Gruppenarbeiten werden oft von wenigen, oder einzelnen Gruppenmitgliedern erledigt (Trittbrettfahrereffekt), unter anderem wegen mangelnder Transparenz über geleistete Beiträge, Unklarheiten über den Modus der Zusammenarbeit oder aufgrund technischer Hindernisse im Datenaustausch.
-Mit Ausnahme von Spezialsoftware der empirischen Sozialforschung und Statistik glänzen Studierende der Sozial- und Geisteswissenschaften oft nicht mit umfangreichen Softwarekenntnissen.
-In den Erziehungswissenschaften, besonders im Fach Grundschulpädagogik, ist die Skepsis bezüglich technischer Anwendungen erfahrungsgemäß recht hoch.
+Mit Ausnahme von Spezialsoftware der empirischen Sozialforschung und Statistik erfahren Studierende der Sozial- und Geisteswissenschaften selten umfangreiche Softwarekenntnisse.
+In den Erziehungswissenschaften, besonders in der Lehrerbildung, ist die Skepsis bezüglich technischer Anwendungen erfahrungsgemäß recht hoch.
 In beiden Fällen braucht es einen Anschub aus anderen Disziplinen.
 
-Die Konventionen und Werkzeuge der \emph{Open Source} Softwareentwicklung bieten ein attraktives Modell, um intensive Textarbeit und resonanz-spendende  Zusammenarbeit in der Fachdidaktik der Sozial- und Geisteswissenschaft neu zu beleben.
-Wir konzentrieren uns hier auf die gegenwärtig dominierende  (Open Source) Software \emph{git}, einem Werkzeug \emph{dezentralen} Versions- und Quellcodeverwaltung und auf die ebenfalls beliebte, darauf basierende (kommerziell-proprieträre) Plattform \emph{GitHub}, einem sozialen Netzwerk für Programmierer.
+Die Konventionen und Werkzeuge der \emph{Open Source} Softwareentwicklung bieten ein attraktives Modell, um intensive Textarbeit und resonanz-spendende Zusammenarbeit in der Fachdidaktik der Sozial- und Geisteswissenschaft neu zu beleben.
+Wir konzentrieren uns hier auf die gegenwärtig dominierende (Open Source) Software \emph{git}, einem Werkzeug \emph{dezentraler} Versions- und Quellcodeverwaltung und auf die ebenfalls beliebte, darauf basierende (kommerziell-proprietäre) Plattform \emph{GitHub}, einem sozialen Netzwerk für Programmierer.
 
 Wir erproben diese Technologie im Sommer 2014 in einem interdisziplinären Kurs über deliberative Demokratie und inklusive Pädagogik bei der Deutschen SchülerAkademie (Bildung \& Begabung gGmbH, Teil der Begabtenförderung des Bundesministeriums für Bildung und Forschung).
 
@@ -79,29 +79,76 @@ Die Zusammenarbeit mit \emph{git} und auf \emph{GitHub} zeichnet sich aus durch:
 		%MH engl: permissiveness, laut dict erlaubtheit, sexuelle Freizügigkeit, toleranz
 		\emph{Jeder} kann eigene Varianten (sogenannte \emph{Forks}, engl. Gabeln) von Projekten anlegen und nach eigenen Vorstellungen fortentwickeln.
 		\emph{Jeder} kann den Fortgang von anderen Projekten und allen Forks nachvollziehen.
-		\emph{Jeder} kann Probleme (\emph{Issues}) berichten, oder eigene Verbesserungsvorschläge unterbreiten (\emph{Pull Requests}).
+		\emph{Jeder} kann Probleme (\emph{Issues}) berichten, oder eigene Verbesserungsvorschläge für das gemeinsame Projekt unterbreiten (\emph{Pull Requests}).
 	\item Effizienz \& Robustheit:
-		Forks von verschiedenen Autoren, oder Versionen zu unterschiedlichen Zeitpunkte können elegant Zeilen- und Buchstabengenau verglichen (\emph{Diff}) und gegebenfalls teil-automatisiert vereint werden (\emph{Merge}).
-		Bei korrektem Gebrauch können Daten kaum verloren gehen; alle Versionen bleiben erhalten.
+		Forks von verschiedenen Autoren, oder Versionen zu unterschiedlichen Zeitpunkte können Zeilen- und Buchstabengenau verglichen (\emph{Diff}) und gegebenenfalls teil-automatisiert vereint werden (\emph{Merge}).
+		Bei korrektem Gebrauch können Daten kaum verloren gehen.
+		Alle Versionen bleiben erhalten.
 		Die zu verwendende Software stellt geringste Anforderungen an Hardware oder Netzanbindung.
 	\item Wertschätzung \& Zurechenbarkeit:
 		Rückmeldungen sind technisch elegant zu realisieren (auf Zeilenbasis), und werden durch Konventionen gestärkt (\emph{Code Review}).
 		Verbesserungsvorschläge für andere Projekte sind einfach zu unterbreiten, und werden als bereichernd geschätzt (\emph{Pull Requests}, s.o.).
 		Urheberschaft lässt sich Zeilengenau nachvollziehen (\emph{Blame}).
-	%MH noch einzuarbeiten von VK
-		%Vorteile der Benutzung dieser Software ist die lückenlose digitale Dokumentation und damit auch die Sicherung aller Erarbeitungsschritte und Ergebnisse; die Möglichkeit aller TeilnehmerInnen direkt auf Textstellen (Absätze, Sätze, einzelne Wörter) Bezug zu nehmen, zu kommentieren und Veränderungen direkt im Text vorzunehmen, die von den anderen Autoren wiederum akzeptiert oder abgelehnt werden können.
+\end{enumerate}
+
+Wenn möglich, sollte für das Erlernen der Software eine separate Einführung mit Übungsanteilen angeboten werden, sodass die Lernenden ausreichend Zeit haben, sich aktiv-entdeckend und an konkreten Problemen mit den technischen Abstraktionen auseinanderzusetzen und langsam die eigenen Schreibroutinen zu verändern.
+
+Sofern basale Fähigkeiten im Umgang mit der Software erworben wurden, lässt sich beobachten, dass sowohl die individuelle Auseinandersetzung mit den Kursinhalten als auch kooperatives Lernen \citep[vgl.][]{johnson-1999} gestärkt wurden.
+
+\begin{enumerate}
+
+	\item Die Teilnehmenden schreiben einen gemeinsamen Text.
+	Sie sind insofern aufeinander angewiesen, alsdass das Lernziel nur in gemeinsamer Zusammenarbeit erreichten werden kann.
+	Durch die Verteilung konkreter Teilaufgaben (Issues) verteilt sich die Verantwortung auf alle Schultern (\emph{positive Interdependenz}).
+	\item Veränderungen am gemeinsamen Produkt sind für alle transparent.
+	Jede Zeile, jeder Buchstabe und jedes Issue ist eindeutig einer Person zuzuordnen, sodass die \emph{Individuelle Verantwortlichkeit} hoch ist.
+	\item \emph{Sich gegenseitig unterstützende Interaktionen} entstehen durch Feedback und Überarbeitungen von Textpassagen.
+	\item Durch die Erlaubnisfreiheit, alles überall ändern zu können, sind die Teilnehmenden zu Selbstorganisation angehalten.
+	Sie entwickeln \emph{soziale Fertigkeiten}.
+	\citep[vgl.][]{johnson-1999}
+	\item Zahlreiche Überarbeitungsdurchgänge des Textes und gegenseitiges Feedback erzeugen eine Lernumgebung im Sinne einer Deliberate Practice.
+	%VK: Cite in barjoke_library.bib ergänzen (Ericsson 2007)
+
 \end{enumerate}
 
 
-Wir erhoffen uns von dieser (anders nicht möglichen) Zusammenarbeit einen zweifachen Lernerfolg:
-\begin{enumerate}
-	\item \emph{Intensivierte Zusammenarbeit.}
-		Die offene Zusammenarbeit an \emph{einem} Text, mit vielen Revisionen und umfangreichen Rückmeldungen von Unterrichtenden und anderen Studierenden intensiviert die Einübung eines präzisen schriftlichen Ausdrucks im Sinne einer \emph{Deliberate Practice} \parencite{Ericsson2007}.
-		Studierende können trotzdem ohne Ablenkung an ihren jeweils \emph{eigenen} Versionen arbeiten (\emph{dezentrale} Quellcodekontrolle), und diese später einpflegen.
-		Des weiteren hilft die minimalistische Benutzeroberfläche (reine Textdateien) den Studierenden sich auf das Schreiben zu konzentrieren.
-	\item \emph{Reflexion \emph{über} die Zusammenarbeit.}
-		Die selbstorganisierte (!) Zusammenarbeit mit oben erwähnten Konventionen zur Wertschätzung und Zurechenbarkeit bietet einen eindrucksvollen Betrachtungsgegenstand um über einige (wenn auch nicht alle) Konzepte der Sozial- und Geisteswissenschaft produktiv zu reflektieren.
-		\emph{Open Source} ist gleichermaßen einer der kennzeichnenden (und vielleicht vielversprechensten) Modi der Zusammenarbeit und des Lernens unserer Zeit, also \emph{eine} Antwort auf Fragen der Soziologie und Pädagogik.
+%VK: DIE FOLGENDEN ABSCHNITTE WÜRDE ICH RAUSNEHMEN; FEHLT NOCH EIN FAZIT/TEXTENDE
+
+% Positive interdependence. “Their work benefits us and our work benefits them” (Johnson & Johnson 1999: 71) :
+% all students write one text
+% students depend on another’s work on atomistic issues 
+
+% Individual accountability. “The performance of each individual student is assessed and the results are given back to the group” (ibid.) :
+% work is transparent: everyone can see everything
+% every line, word or issue posted is owned by individual students 
+
+% Promotive Interaction. “Individuals promote each other’s success by helping, assisting, supporting, encouraging and praising” (ibid.) :
+% students give and receive mutual writing feedback
+% students open and assign themselves or others to issues 
+
+% Social Skills & Group Processing. “Define and solve the problems they are having working together effectively” (ibid.):
+% students learn conventions and technology to collaborate intensively
+% students must organize themselves 
+
+% Deliberate Practice (Ericsson 2007):
+% students write many revisions with intensive feedback
+
+% %VK: Kritik?
+
+% References:
+% Ericsson, K. Anders (2007): “The Making of an Expert”, Harvard Business Review (July-August).
+
+% Wir erhoffen uns von dieser Form der Zusammenarbeit einen zweifachen Lernerfolg:
+% \begin{enumerate}
+% 	\item \emph{Intensivierte Zusammenarbeit.}
+% 	%VK Kooperatives Lernen
+% 		Die offene Zusammenarbeit an \emph{einem} Text, mit vielen Revisionen und umfangreichen Rückmeldungen von Unterrichtenden und anderen Studierenden intensiviert die Einübung eines präzisen schriftlichen Ausdrucks im Sinne einer \emph{Deliberate Practice} \parencite{Ericsson2007}.
+% 		Studierende können trotzdem ohne Ablenkung an ihren jeweils \emph{eigenen} Versionen arbeiten (\emph{dezentrale} Quellcodekontrolle), und diese später einpflegen.
+% 		Des Weiteren hilft die minimalistische Benutzeroberfläche (reine Textdateien) den Studierenden sich auf das Schreiben zu konzentrieren.
+% 	\item \emph{Reflexion \emph{über} die Zusammenarbeit.}
+% 		Die selbstorganisierte (!) Zusammenarbeit mit oben erwähnten Konventionen zur Wertschätzung und Zurechenbarkeit bietet einen eindrucksvollen Betrachtungsgegenstand um über einige (wenn auch nicht alle) Konzepte der Sozial- und Geisteswissenschaft produktiv zu reflektieren.
+
+% 		\emph{Open Source} ist gleichermaßen einer der kennzeichnenden (und vielleicht vielversprechensten) Modi der Zusammenarbeit und des Lernens unserer Zeit, also \emph{eine} Antwort auf Fragen der Soziologie und Pädagogik.
 		%Wie plausibel \emph{kommunikative Rationalität} \cite{Habermas-1984} sein mag oder --- aus anderem Blickwinkel --- wie eine \emph{emergente Ordnung} \cite{hamowy_constitution_2011} wächst, können Studierende in der eigenen Auseinandersetzung mit verschiedenen \emph{Pull Requests}, \emph{Issues} über den gemeinsamen Text lebendig erfahren.
 		%MH ähnlichen Beitrag über Pädagogik? Passt das?
 	%\item Erwerbsrelevante Fertigkeiten.
