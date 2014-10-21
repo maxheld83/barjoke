@@ -1,14 +1,13 @@
+Here are drafts about the didactics and philosophy of using git(hub) ... and other stuff.
+
 ![https://zenodo.org/badge/3676/maxheld83/barjoke.png](https://zenodo.org/badge/3676/maxheld83/barjoke.png)
 
-We report on ["Emile"](https://github.com/BildungBegabung/emile), a collaborative writing class on Education and Democracy we taught at [Deutschen SchülerAkademie](https://www.deutsche-schuelerakademie.de), a summer school program for gifted students by Bildung & Begabung GmbH.
+## Abstract
 
-To enable all 16 students to work together on *one* and receive intensive intensive feedback, we used tools and conventions from (open source) software development, including the general-purpose editor [Atom](https://atom.io), the source control management [Git](http://git-scm.com) and commercial git-hoster and social network [Github](https://github.com).
-The physical instruction during the two-week seminar was complemented by a comprehensive learning environment on Github, including reading questions and peer review.
+Wir berichten über einen bei der Deutschen SchülerAkademie (Bildung & Begabung GmbH) geplanten Kurs zum Thema "Schule und Demokratie", bei dem Teilnehmende im Alter von 16--18 Jahren auf der Entwicklerplattform GitHub zusammen schreiben und lernen.
 
-These tools required intensive instruction, but offer substantial benefits past a steep learning curve.
-Robust, reproduceable and permissionless collaboration strengthened positive interdependence, individual accountability, promotive interaction, social skills, group processing and deliberative practice.
+Konventionen und Werkzeuge aus der Open Source Softwareentwicklung ermöglichen es auch Studierenden der Geistes- und Sozialwissenschaften, intensiv an gemeinsamen Texten zu arbeiten.
+Durch viele Revisionen, wechselseitige Rückmeldungen von Peers und Lehrenden sowie einfacher Einarbeitung stärken Studierende ihren schriftlichen Ausdruck im Sinne einer *Deliberate Practice*.
+Gleichzeitig dient die selbstorganisierte Zusammenarbeit Studierenden als Reflexionsmoment, um (ausgewählte) pädagogische und soziologische Konzepte erfahrbar zu machen.
 
-Writing academic texts as developers write (open source) code allows for more intensive feedback and collaboration than conventional writing assignments.
-In addition, this setup increases students IT skills, allows for public, iterative writing and invites reflections on human cooperation and technology-enabled opportunities.
-
-We cautiously recommend these tools for academic teaching, when the necessary learning curve can be mastered and offer suggestions for implementation.
+Schließlich erlernen Studierende ein gängiges Softwareprogramm und reflektieren über den Einsatz digitaler Technologie für akademische Zusammenarbeit.

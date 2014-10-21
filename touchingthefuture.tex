@@ -8,18 +8,15 @@
 		ngerman
 	]
 	{article}
-
-\usepackage{latexstyles/print}
-
+\usepackage{./latexstyles/print}
 \addbibresource{../held-library/held_library.bib}
 \addbibresource{../vk_library/verenakasztantowicz.bib}
 
 \title{
-	Learning from Open Source is Learning to Write\\*
-	---\\*
+	Von Open Source lernen, heißt Schreiben lernen ---
 	%MH das original ist wohl "von der sowjetunion lernen heisst siegen lernen" http://de.wikipedia.org/?title=Liste_gefl%C3%BCgelter_Worte/V#Von_der_Sowjetunion_lernen_hei.C3.9Ft_siegen_lernen.
 		%sollte so aber ok sein, oder?
-	Teaching Academic Writing on GitHub
+	Ein wissenschaftsdidaktisches Experiment zum gemeinsamen Schreiben auf GitHub
 }
 
 \date{today}
@@ -41,8 +38,12 @@
 \maketitle
 
 \begin{abstract}
-	\immediate\write18{pandoc README.md -t latex -o Output/tmp.tex}%
-	\input{tmp.tex}
+	Wir berichten über einen bei der Deutschen SchülerAkademie (Bildung \& Begabung GmbH) durchgeführten Kurs zum Thema ``Schule und Demokratie'', bei dem Teilnehmende im Alter von 16--18 Jahren auf der Entwicklerplattform \emph{GitHub} zusammen schreiben und lernen.
+
+	Konventionen und Werkzeuge aus der Open Source Softwareentwicklung ermöglichen es auch Studierenden der Geistes- und Sozialwissenschaften, kooperativ und in weiten Teilen selbstorganisiert an \emph{einem gemeinsamen Text} zu arbeiten.
+	Durch viele Revisionen, wechselseitige Rückmeldungen von Peers und Lehrenden stärken Studierende ihren schriftlichen Ausdruck im Sinne einer \emph{Deliberate Practice}.
+
+	Schließlich erlernen Studierende ein gängiges Softwareprogramm und reflektieren über den Einsatz digitaler Technologie für akademische Zusammenarbeit.
 \end{abstract}
 
 Die Basis der sozial- und geisteswissenschaftlichen Didaktik --- wie der zu vermittelnden Disziplinen --- ist der Text, das zusammenhängende geschriebene Wort.
